@@ -1,0 +1,28 @@
+.mainBox{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+#searchInput{
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#searchBtn{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: palevioletred;
+    
+}
