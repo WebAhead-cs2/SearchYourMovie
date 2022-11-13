@@ -4,24 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "startup": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "./node_modules/.bin/eslint ."
-
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebAhead-cs2/WorldCup2022.git"
+    "url": "git+https://github.com/WebAhead-cs2/SearchYourMovie.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WebAhead-cs2/WorldCup2022/issues"
+    "url": "https://github.com/WebAhead-cs2/SearchYourMovie/issues"
   },
-  "homepage": "https://github.com/WebAhead-cs2/WorldCup2022#readme",
+  "homepage": "https://github.com/WebAhead-cs2/SearchYourMovie#readme",
   "devDependencies": {
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
   }
 }

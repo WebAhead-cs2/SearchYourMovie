@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='/src/style.css'>
     <title>world-cup-22</title>
 </head>
 <body>
     <div class="mainBox">
-        <input type="text" id="searchInput" placeholder="search a country...">
+        <input type="text" id="searchInput" placeholder="search a movie..."> <br><br>
         <button id="searchBtn">search</button>
+        <h2>Title</h2>
+        <h4>Released</h4>
+        <div id="runTime">runTime</div>
+        <img src="" alt="" width="250px">
+        <div id="details">
+            <h3>Storyline</h3>
+            <div id="plot">plot ... ... ... </div>
+            <div>
+                <span><b>Director </b></span>
+                <span id="director"></span>
+            </div>
+            <div>
+                <span><b>Writer </b></span>
+                <span id="writer"></span>
+            </div>
+            <div>
+                <ul id="actorsList"><b>stars </b></ul>
+            </div>
+            <div>
+                <span><b>BoxOffice </b></span>
+                <span id="boxoffice"></span>
+            </div>
+            <div></div>
+        </div>
     </div>
+
+    <script src='/src/index.js'></script>
 </body>
 </html>
