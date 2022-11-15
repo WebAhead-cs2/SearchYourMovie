@@ -5,36 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='/src/style.css'>
-    <title>world-cup-22</title>
+    <title>MoviesDB</title>
 </head>
 <body>
     <div class="mainBox">
-        <input type="text" id="searchInput" placeholder="search a movie..."> <br><br>
-        <button id="searchBtn">search</button>
-        <h2>Title</h2>
-        <h4>Released</h4>
-        <div id="runTime">runTime</div>
-        <img src="" alt="" width="250px">
-        <div id="details">
-            <h3>Storyline</h3>
-            <div id="plot">plot ... ... ... </div>
-            <div>
-                <span><b>Director </b></span>
-                <span id="director"></span>
-            </div>
-            <div>
-                <span><b>Writer </b></span>
-                <span id="writer"></span>
-            </div>
-            <div>
-                <ul id="actorsList"><b>stars </b></ul>
-            </div>
-            <div>
-                <span><b>BoxOffice </b></span>
-                <span id="boxoffice"></span>
-            </div>
-            <div></div>
+        <div class="autocomplete">
+            <input type="text" id="searchInput" placeholder="search a movie...">
         </div>
+        <button id="searchBtn">search</button>
+        <h1></h1>
+        <div class="info">
+            <h2></h2>
+            <div id="dateTime">
+                <div id="date"></div>
+                <div id="runTime"></div>
+            </div>
+            
+            <div id="imgAndPlot">
+                <img src="" alt="" width="350px">
+                <div id="plot"></div>
+            </div>
+            
+
+            <div id="details">
+                <div id="genre"></div>
+                <div class="inBox">
+                    <span id="directortx"><b></b></span>
+                    <span id="director"></span>
+                </div>
+                <div class="inBox">
+                    <span id="writertx"><b></b></span>
+                    <span id="writer"></span>
+                </div>
+                <div id="actorsList">
+                    <b id="boldStars"></b>
+                    <!-- <ul id="actorsList"></ul> -->
+                </div>
+                <div>
+                    <span id="awardsx"><b> </b></span>
+                    <span  id="awards"></span>
+                </div>
+                <div class="inBox">
+                    <span id="boxOfficetx"><b></b></span>
+                    <span id="boxoffice"></span>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
     <script src='/src/index.js'></script>
